@@ -61,4 +61,3 @@ Headless Tina CMS Ready !!
 ### 🥇 Supporter 👨🏻‍🚀
 
 <a href="https://github.com/adamdjbrett"><img src="https://avatars.githubusercontent.com/u/22662978?v=4" alt="Adam DJ Brett" width="80" height="80"/></a> <a href="https://github.com/grandlimo/"><img src="https://avatars.githubusercontent.com/u/136876765?v=4" width="80" height="80" alt="grandlimousine"/></a> <a href="https://github.com/Dustcloudman"><img alt="Dustcloudman" src="https://avatars.githubusercontent.com/u/103728037?v=4" width="80" height="80"/></a> <a href="https://github.com/creativebydre"><img alt="creativebydre" src="https://avatars.githubusercontent.com/u/70264436?v=4" width="80" height="80"/></a> <a href="https://github.com/creativitas"><img alt="creativitas" src="https://avatars.githubusercontent.com/u/112189857?v=4" width="80" height="80"/></a>
-
