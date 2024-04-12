@@ -1,0 +1,47 @@
+{
+	"name": "blogger11ty",
+	"version": "2.1.2",
+	"description": "Simple blogger 11ty starter website themes template.",
+	"type": "module",
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
+		"start": "npx @11ty/eleventy --serve --quiet",
+		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+		"debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+		"benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/11ty/eleventy-base-blog.git"
+	},
+	"author": {
+		"name": "creativitas",
+		"email": "axcora@gmail.com",
+		"url": "https://creativitas.dev/"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=20"
+	},
+	"funding": {
+		"type": "custom",
+		"url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "3.0.0-alpha.5",
+		"@11ty/eleventy-img": "^4.0.2",
+		"@11ty/eleventy-navigation": "^0.3.5",
+		"@11ty/eleventy-plugin-bundle": "^1.0.5",
+		"@11ty/eleventy-plugin-rss": "^1.2.0",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+		"@tinacms/cli": "^1.5.43",
+		"@types/node": "^20.12.7",
+		"luxon": "^3.4.4",
+		"markdown-it-anchor": "^8.6.7"
+	},
+	"dependencies": {
+		"bootstrap": "^5.3.3",
+		"tinacms": "^1.6.1"
+	}
+}

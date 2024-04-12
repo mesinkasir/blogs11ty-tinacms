@@ -1,0 +1,14 @@
+html,body {font-family: verdana;}
+body {
+background-image: url("/image/bg.png");
+background-color: #000000;
+}
+a {text-decoration:none; color:black;font-weight:bold;}
+.banner {
+background-color: #000000;
+background-image: url("/image/bg.png");
+}
+img,iframe{max-width:100%;height:auto; border-radius:0;}
+.btn,button {border-radius:0;}
+.nav-link{color:black;font-weight:bold;}
+.start {background-color:white;}

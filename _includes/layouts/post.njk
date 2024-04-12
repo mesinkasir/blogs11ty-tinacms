@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+---
+<p><small>by <a href="{{metadata.author.url}}" target="_blank">{{metadata.author.name}}</a> | Publish on : <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> </small></p>
+<p>
+{%- for tag in tags | filterTagList %}
+{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+<a href="{{ tagUrl }}" title="{{tag}}" class="btn btn-sm btn-outline-dark me-1">{{ tag }}</a>{%- if not loop.last %} {% endif %}
+{%- endfor %}
+</p>
+
+{{ content | safe }}
+
+<div class="row mt-5">
+{%- if collections.posts %}
+{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+{%- set nextPost = collections.posts | getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+{%- if previousPost %}<a href="{{ previousPost.url }}" title="{{ previousPost.data.title }}" class="col-6 p-3 btn btn-outline-dark">{{ previousPost.data.title }}</a>{% else %}<span class="col-6"></span>{% endif %}
+{%- if nextPost %}<a href="{{ nextPost.url }}" title="{{ nextPost.data.title }}" class="col-6 p-3 btn btn-outline-dark">{{ nextPost.data.title }}</a>{% else %}<span class="col-6"></span>{% endif %}
+{%- endif %}
+{%- endif %}
+</div>

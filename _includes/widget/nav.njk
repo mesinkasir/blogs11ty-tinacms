@@ -1,0 +1,5 @@
+<nav class="nav row text-center">
+{%- for nav in metadata.navigation %}
+<a class="nav-link col-3" href="{{ nav.link }}">{{ nav.nav }}</a>
+{%- endfor %}
+</nav>

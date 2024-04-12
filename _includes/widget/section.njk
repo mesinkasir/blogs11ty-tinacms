@@ -1,0 +1,17 @@
+<section class="container border-top border-dark ">
+<div class="row">
+<div class="col-md-8 p-3 p-md-5">
+<h3><strong><a href="{{page.url}}">{{metadata.blog_widget.title}}</a></strong></h3><hr/>
+{% for i in collections.posts.slice(0, 4)  | reverse %}
+<a href="{{i.url}}">{{i.data.title}}</a><hr/>
+{% endfor %}
+<p><a href="{{metadata.blog_widget.link}}" class="btn btn-dark btn-sm">{{metadata.blog_widget.button}}</a></p>
+</div>
+<div class="col-md-4 p-3 p-md-5">
+<h3><strong><a href="{{page.url}}">Menu</a></strong></h3><hr/>
+{% for u in metadata.navigation %}
+<a href="{{u.link}}">{{u.nav}}</a><hr/>
+{% endfor %}
+</div>
+</div>
+</section>

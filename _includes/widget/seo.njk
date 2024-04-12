@@ -1,0 +1,27 @@
+<!-- auto SEO injection by creativitas.dev hire us on www.fiverr.com/creativitas -->
+<meta name="google-site-verification" content="yEWWF4dsvkj_A2W6oD0RbYFCNdMpdDy6f-DmE1JaH88" />
+<meta name="google-site-verification" content="qxJtyDjFxjZreuOdG9QDXZd4Je96drgBiHwTvNqZ_A8" />
+<title>{{ title or metadata.title }}</title>
+<meta name="description" content="{{ description or metadata.description }}">
+<meta name="title" content="{{ title or metadata.title }}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="{{metadata.locale}}" />
+<meta property="og:url" content="{{metadata.url}}{{page.url}}">
+<meta property="og:title" content="{{ title or metadata.title }}">
+<meta property="og:description" content="{{ description or metadata.description }} ">
+<meta property="og:image" content="{{ image or metadata.image}}">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ metadata.url }}">
+<meta property="twitter:title" content="{{ title or metadata.title }}">
+<meta property="twitter:description" content="{{ description or metadata.description }} ">
+<meta property="twitter:image" content="{{ image or metadata.image}}">
+<meta content="index, follow" name="robots">
+<link rel="icon" type="image/svg+xml" href="{{metadata.favicon}}">
+<link rel="alternate" href="feed/feed.njk" type="application/atom+xml" title="{{ metadata.title }}">
+<link rel="alternate" href="feed/json.njk" type="application/json" title="{{ metadata.title }}">
+<meta name="generator" content="{{ eleventy.generator }}">
+<meta name="developer" content="www.creativitas.dev">
+{%- css %}{% include "node_modules/bootstrap/dist/css/bootstrap.min.css" %}{% endcss %}
+{%- css %}{% include "public/css/index.css" %}{% endcss %}
+<style>{% getBundle "css" %}</style>
+<!-- auto SEO injection by creativitas.dev hire us on www.fiverr.com/creativitas -->
