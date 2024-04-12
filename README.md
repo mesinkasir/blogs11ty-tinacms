@@ -1,2 +1,4 @@
 # blogs11ty-tinacms
-A Starter Blog eleventy 11ty with TINA CMS
+A Starter Blog eleventy 11ty with TINA CMS.
+
+Soon.... On Progress.....
