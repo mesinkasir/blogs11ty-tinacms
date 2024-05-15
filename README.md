@@ -18,6 +18,13 @@ Documentation How to : [https://www.hockeycomputindo.com/themes/eleventy/blogger
 
 [Paypall](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN) [Gumroad](https://creativitaz.gumroad.com/l/coffee) [Github Sponsor](https://github.com/sponsors/mesinkasir)
 
+
+----
+
+### 💖 Thanks for Sponsor 🤞
+
+<a href="https://www.grandlimousine.com/atlanta/" target="_blank"><img src="https://avatars.githubusercontent.com/u/136876765?v=4" alt="grandlimousine 1" width="195" height="195"/></a> <a href="https://www.adamdjbrett.com/" target="_blank"><img src="https://github.com/adamdjbrett/adamdjbrett.github.io/blob/master/assets/img/open-graph-logo.png?raw=true" alt="adamdjbrett" width="195" height="195"/></a> <a href="https://www.axcora.com/" target="_blank"><img style="background-color:white;" src="https://raw.githubusercontent.com/mesinkasir/larapos/gh-pages/axcoralogowhite.webp" alt="The Axcora Technology" width="195" height="195"/></a> <a href="https://www.hockeycomputindo.com/themes/" target="_blank"><img src="https://www.hockeycomputindo.com/img/hockeycompcarwebsite.jpg" alt="hockeycorp" width="195" height="195"/></a> <a href="https://fiverr.com/creativitas/" target="_blank"><img src="https://creativitas.github.io//assets/img/creativitaswebdev.webp" alt="creativitas" width="195" height="195"/></a>
+
 ---
 
 ### Shoot 📷
